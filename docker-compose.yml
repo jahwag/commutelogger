@@ -1,0 +1,32 @@
+#
+# This file is provided for testing in local development environment
+#
+version: '3.7'
+
+services:
+  database:
+    build: ./database
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: 1234
+
+  app:
+    build:
+      context: .
+      args:
+        APP_TENANT_ID: ${APP_TENANT_ID}
+        APP_CLIENT_ID: ${APP_CLIENT_ID}
+        APP_REDIRECT_URI: ${APP_REDIRECT_URI}
+    container_name: app
+    ports:
+      - "80:8080"
+    depends_on:
+      - database
+    environment:
+      DATASOURCE_URL: "jdbc:postgresql://database:5432/"
+      DATASOURCE_USERNAME: "postgres"
+      DATASOURCE_PASSWORD: "1234"
+      APP_CLIENT_ID: ${APP_CLIENT_ID}
+      APP_CLIENT_SECRET: ${APP_CLIENT_SECRET}
+      APP_ALLOWED_GROUPS: ${APP_ALLOWED_GROUPS}

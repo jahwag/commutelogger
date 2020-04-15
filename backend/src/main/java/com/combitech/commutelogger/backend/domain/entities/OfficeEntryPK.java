@@ -1,0 +1,29 @@
+package com.combitech.commutelogger.backend.domain.entities;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import java.io.Serializable;
+import java.time.LocalDate;
+
+@Getter
+@Builder
+@Accessors(fluent = true)
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode(of = {"date", "office"})
+public class OfficeEntryPK implements Serializable {
+
+    @Id
+    private LocalDate date;
+
+    @Id
+    @ManyToOne
+    private Office office;
+}

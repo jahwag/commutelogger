@@ -1,0 +1,51 @@
+[ {
+  "name" : "Walk",
+  "gramCo2PerKm" : 0,
+  "perPersonKm" : false,
+  "shareable" : false
+}, {
+  "name" : "Bicycle",
+  "gramCo2PerKm" : 0,
+  "perPersonKm" : false,
+  "shareable" : false
+}, {
+  "name" : "Motorcycle 125cc",
+  "gramCo2PerKm" : 69,
+  "perPersonKm" : false,
+  "shareable" : false
+}, {
+  "name" : "Motorcycle < 500cc",
+  "gramCo2PerKm" : 84,
+  "perPersonKm" : false,
+  "shareable" : false
+}, {
+  "name" : "Motorcycle > 500cc",
+  "gramCo2PerKm" : 110,
+  "perPersonKm" : false,
+  "shareable" : false
+}, {
+  "name" : "Car",
+  "gramCo2PerKm" : 110,
+  "perPersonKm" : false,
+  "shareable" : true
+}, {
+  "name" : "Electric vehicle",
+  "gramCo2PerKm" : 26,
+  "perPersonKm" : false,
+  "shareable" : true
+}, {
+  "name" : "Bus",
+  "gramCo2PerKm" : 15,
+  "perPersonKm" : true,
+  "shareable" : false
+}, {
+  "name" : "Train or subway",
+  "gramCo2PerKm" : 1,
+  "perPersonKm" : true,
+  "shareable" : false
+}, {
+  "name" : "Other",
+  "gramCo2PerKm" : 0,
+  "perPersonKm" : false,
+  "shareable" : false
+} ]
