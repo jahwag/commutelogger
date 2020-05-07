@@ -9,7 +9,7 @@
             <cl-table pk="id" ref="table" v-model="trips" v-on:add="dialog = true">
                 <template v-slot:empty>
                     <cl-loading-indicator v-if="loading"/>
-                    <div v-if="trips === [] && !loading">You have not submitted any trips.</div>
+                    <div v-if="trips.length == 0 && !loading">You have not submitted any trips.</div>
                 </template>
 
                 <template v-slot:default="item">
