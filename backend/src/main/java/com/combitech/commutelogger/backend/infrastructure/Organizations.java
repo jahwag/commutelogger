@@ -21,7 +21,7 @@ public interface Organizations extends JpaRepository<Organization, Long> {
 
     @Transactional
     default Optional<Organization> findByDomainWithOffices(String domain) {
-        Optional<Organization> optionalOrganization = findByDomain(domain);
+        Optional<Organization> optionalOrganization = findByDomains(domain);
 
         if (optionalOrganization.isPresent()) {
             Organization organization = optionalOrganization.get();
@@ -39,5 +39,5 @@ public interface Organizations extends JpaRepository<Organization, Long> {
         return optionalOrganization;
     }
 
-    Optional<Organization> findByDomain(String domain);
+    Optional<Organization> findByDomains(String domain);
 }

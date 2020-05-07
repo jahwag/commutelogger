@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -61,7 +62,7 @@ class OrganizationTest {
         List<Organization> organizations = new LinkedList<>();
         organizations.add(Organization.builder()
                                       .name("Combitech AB")
-                                      .domain("combitech.se")
+                                      .domains(Arrays.asList("combitech.se", "combitech.com"))
                                       .offices(offices)
                                       .build());
         return organizations;
@@ -75,7 +76,7 @@ class OrganizationTest {
         List<Organization> organizations = new LinkedList<>();
         organizations.add(Organization.builder()
                                       .name("Combitech A/S")
-                                      .domain("combitech.dk")
+                                      .domains(Collections.singletonList("combitech.dk"))
                                       .offices(Collections.singletonList(headQuarters))
                                       .build());
         return organizations;
@@ -89,7 +90,7 @@ class OrganizationTest {
         List<Organization> organizations = new LinkedList<>();
         organizations.add(Organization.builder()
                                       .name("Combitech Oy")
-                                      .domain("combitech.fi")
+                                      .domains(Collections.singletonList("combitech.fi"))
                                       .offices(Collections.singletonList(headQuarters))
                                       .build());
         return organizations;

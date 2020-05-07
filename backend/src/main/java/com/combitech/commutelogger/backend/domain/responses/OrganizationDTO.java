@@ -16,7 +16,7 @@ public class OrganizationDTO {
 
     String name;
 
-    String domain;
+    List<String> domain;
 
     List<OfficeDTO> offices;
 
@@ -24,7 +24,7 @@ public class OrganizationDTO {
         return OrganizationDTO.builder()
                               .id(organization.id())
                               .name(organization.name())
-                              .domain(organization.domain())
+                              .domain(organization.domains())
                               .offices(organization.offices()
                                                    .stream()
                                                    .map(OfficeDTO::of)

@@ -11,12 +11,14 @@ import lombok.experimental.Accessors;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
 @Entity
@@ -40,16 +42,12 @@ public class Organization {
     @NotBlank
     private String name;
 
-    @NotBlank
-    private String domain;
+    @NotEmpty
+    @ElementCollection
+    private List<String> domains;
 
     @Cascade(CascadeType.ALL)
     @OneToMany(mappedBy = "organization")
     private List<Office> offices;
-
-    public static String emailToDomain(String email) {
-        return email.toLowerCase()
-                    .split("(.+)@")[1];
-    }
 
 }

@@ -1,197 +1,161 @@
-[
-  {
-    "id": null,
-    "name": "Combitech AB",
-    "domain": "combitech.se",
-    "offices": [
-      {
-        "id": null,
-        "name": "Växjö",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Arboga",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Borlänge",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Enköping",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Göteborg",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Helsingborg",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Hässleholm",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Jönköping",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Karlskoga",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Karlstad",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Kristianstad",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Linköping",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Luleå",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Lund",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Malmö",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Norrköping",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Skövde",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Sollefteå",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Stockholm",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Sundsvall",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Södertälje",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Trollhättan",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Umeå",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Uppsala",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Västerås",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Örnsköldsvik",
-        "organization": null,
-        "competitions": null
-      },
-      {
-        "id": null,
-        "name": "Östersund",
-        "organization": null,
-        "competitions": null
-      }
-    ]
-  },
-  {
-    "id": null,
-    "name": "Combitech A/S",
-    "domain": "combitech.dk",
-    "offices": [
-      {
-        "id": null,
-        "name": "Ballerup",
-        "organization": null,
-        "competitions": null
-      }
-    ]
-  },
-  {
-    "id": null,
-    "name": "Combitech Oy",
-    "domain": "combitech.fi",
-    "offices": [
-      {
-        "id": null,
-        "name": "Tampere",
-        "organization": null,
-        "competitions": null
-      }
-    ]
-  }
-]
+[ {
+  "id" : null,
+  "name" : "Combitech AB",
+  "domains" : [ "combitech.se", "combitech.com" ],
+  "offices" : [ {
+    "id" : null,
+    "name" : "Växjö",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Arboga",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Borlänge",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Enköping",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Göteborg",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Helsingborg",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Hässleholm",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Jönköping",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Karlskoga",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Karlstad",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Kristianstad",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Linköping",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Luleå",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Lund",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Malmö",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Norrköping",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Skövde",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Sollefteå",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Stockholm",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Sundsvall",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Södertälje",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Trollhättan",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Umeå",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Uppsala",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Västerås",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Örnsköldsvik",
+    "organization" : null,
+    "competitions" : null
+  }, {
+    "id" : null,
+    "name" : "Östersund",
+    "organization" : null,
+    "competitions" : null
+  } ]
+}, {
+  "id" : null,
+  "name" : "Combitech A/S",
+  "domains" : [ "combitech.dk" ],
+  "offices" : [ {
+    "id" : null,
+    "name" : "Ballerup",
+    "organization" : null,
+    "competitions" : null
+  } ]
+}, {
+  "id" : null,
+  "name" : "Combitech Oy",
+  "domains" : [ "combitech.fi" ],
+  "offices" : [ {
+    "id" : null,
+    "name" : "Tampere",
+    "organization" : null,
+    "competitions" : null
+  } ]
+} ]
