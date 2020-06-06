@@ -14,7 +14,7 @@ if (!!!process.env.VUE_APP_REDIRECT_URI) {
 const instance = new msal.PublicClientApplication({
   auth: {
     clientId: process.env.VUE_APP_CLIENT_ID,
-    tenantId: process.env.VUE_APP_TENANT_ID,
+    authority: 'https://login.microsoftonline.com/' + process.env.VUE_APP_TENANT_ID,
     redirectUri: process.env.VUE_APP_REDIRECT_URI,
     navigateToLoginRequestUrl: true
   },
