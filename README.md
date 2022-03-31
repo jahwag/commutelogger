@@ -8,7 +8,7 @@ Commute Logger is a web application for tracking daily commute in organizations.
 
 Demo for bytelope.com:
 
-docker-compose --env-file ./test.env up --build
+docker-compose --env-file ./test.env up --build --force-recreate
 
 App is served on [http://localhost](http://localhost).
 
