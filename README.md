@@ -6,6 +6,10 @@ Commute Logger is a web application for tracking daily commute in organizations.
 ## How to run
 `$ docker-compose up -d -e APP_TENANT_ID=<tenant-id> -e APP_CLIENT_ID=<client-id> -e APP_CLIENT_SECRET=<client-secret> -e APP_ALLOWED_GROUPS=<allowed-groups'> -e APP_REDIRECT_URI=<redirect-uri>`
 
+Demo for bytelope.com:
+
+docker-compose up -d --env-file ./test.env
+
 App is served on [http://localhost](http://localhost).
 
 ### Variables
