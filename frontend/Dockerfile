@@ -1,5 +1,5 @@
 # build stage
-FROM node:alpine as build-stage
+FROM node:12-alpine as build-stage
 ARG NGINX_CONF="nginx.conf"
 WORKDIR /app
 COPY package*.json ./

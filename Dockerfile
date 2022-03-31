@@ -7,7 +7,7 @@ ARG APP_REDIRECT_URI
 # ============================================================================
 # Generate resources stage
 # ============================================================================
-FROM node:alpine as generate-resources-stage
+FROM node:12-alpine as generate-resources-stage
 ARG APP_TENANT_ID
 ARG APP_CLIENT_ID
 ARG APP_REDIRECT_URI
